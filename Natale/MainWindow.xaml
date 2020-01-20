@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Natale"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="416" Width="554">
+    <Grid Margin="0,0,0,-1">
+        <TextBox Name="txt1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="43" Margin="75,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" FontSize="20" Background="#FFC3FFE7"/>
+        <TextBox Name="txt2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="43" Margin="75,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135" FontSize="20" Background="#FFC3FFE7"/>
+        <Label Content="Numero 1:" HorizontalAlignment="Left" Margin="75,61,0,0" VerticalAlignment="Top" Width="135" Height="36" Foreground="Black" FontSize="18"/>
+        <Label Content="Numero 2:" HorizontalAlignment="Left" Margin="75,145,0,0" VerticalAlignment="Top" Width="135" Height="36" Foreground="Black" FontSize="18"/>
+        <ComboBox Name="cmbOperazioni" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="300,97,0,0" VerticalAlignment="Top" Width="170" Height="43" FontSize="18"/>
+        <Label Content="Scegli l'operazione:" HorizontalAlignment="Left" Margin="300,61,0,0" VerticalAlignment="Top" Width="170" Height="36" Foreground="Black" FontSize="18"/>
+        <Button Name="btnCalcola" Content="CALCOLA" HorizontalAlignment="Left" Margin="300,181,0,0" VerticalAlignment="Top" Width="170" Height="43" FontSize="22" FontWeight="Bold" Click="btnCalcola_Click"/>
+        <TextBox Name="txtRisultato" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True" HorizontalAlignment="Left" Height="78" Margin="75,272,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="395" FontSize="24"/>
     </Grid>
 </Window>
